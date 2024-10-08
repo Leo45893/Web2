@@ -1,0 +1,336 @@
+/* CSS Document */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Jersey+10&family=New+Amsterdam&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*font-family: "Jersey 10", sans-serif;*/
+
+/*font-family: "New Amsterdam", sans-serif;*/
+
+/*font-family: "Open Sans", sans-serif;*/
+
+/*font-family: "Anton", sans-serif;*/
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body{
+    background-color: rgba(55,160,145,1.00);
+}
+
+
+#nav_sociales{
+    background: linear-gradient(45deg,  rgba(31,158,103,1) 0%,rgba(40,211,145,1) 50%,rgba(33,198,141,1) 51%,rgba(122,226,183,1) 100%);
+    width: 100%;
+    height: 35px;
+   
+	
+}
+#nav_sociales ul {
+    width: 900px;
+    margin: auto; 
+   
+}
+#nav_sociales ul li{
+    list-style-type: none;
+    float: left;
+    margin-right: 20px;
+    padding-right: 10px;	
+	
+	
+}
+
+
+#contenedor{
+    width: 950px;
+    height: auto;	
+	margin: auto;/*centra el contenedor*/
+}
+#encabezado{
+    height: 200px;
+    background-image: url(img/Encabe.jpg);        
+}
+#botonera{
+    height: 40px;
+  
+background: linear-gradient(to bottom,  rgba(239,197,202,1) 0%,rgba(210,75,90,1) 50%,rgba(186,39,55,1) 51%,rgba(241,142,153,1) 100%); 
+
+	
+	
+	
+	
+	}
+#botonera ul{
+    /*border: solid 1px blue;*/
+    width: 600px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 262px;
+	}
+#botonera ul li{
+    width: 98px;
+    /*border: 1px solid rgba(255,229,0,1.00);*/
+    float: left;
+    line-height: 40px;
+    list-style-type: none;
+    text-align: center;   
+	
+	}
+#botonera ul li a{
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    color: rgba(255,255,255,1.00);
+    text-decoration: none;
+    text-transform: uppercase;
+	
+	
+    	
+	}
+#botonera ul li a:hover{
+    text-shadow: 1px 3px 3px rgba(0, 0, 0, 1);
+	
+	
+	
+	}
+#botonera ul li:hover{
+    background-color: rgba(239,182,182,1.00);	
+	}
+#centro{
+    height: 500px;
+    background-color: rgba(255,255,255,1.00);
+	}
+#pie{
+    height: 40px;
+    font-weight: 400;
+    font-size: 21px;
+    text-align: center;
+    line-height: 40px;
+   
+    background: linear-gradient(to bottom,  rgba(19,96,63,1) 1%,rgba(40,214,159,1) 50%,rgba(40,214,159,1) 51%,rgba(19,96,63,1) 100%); 
+    color: rgba(255,255,255,1.00);	
+	
+	font-family: "Anton", sans-serif;
+	
+	
+	}
+#Caja1{
+    width: 550px;
+    height: 460px;
+   /* border-right: 1px solid rgba(255,0,4,1.00);*/
+    float: left;
+    margin-top: 20px;
+    margin-left: 27px;
+	}
+#Caja2{
+    width: 315px;
+    height: 233px;
+    background-color: rgba(163,80,80,1.00);
+    float: right;
+    margin-top: 30px;
+    margin-right: 27px;
+	}
+#Caja1 h1{
+    font-size: 38px;
+    font-weight: 400;
+    color: rgba(255,1,0,1.00);
+    margin-bottom: 10px;
+    font-family: "Jersey 10", sans-serif;
+    text-transform: uppercase;	
+	
+
+	}
+
+#Caja1 p{
+   
+    font-size: 14px;
+    text-align: justify;
+    line-height: 18px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+	font-family: "Open Sans", sans-serif;
+	
+
+	}
+#Caja1 img{
+    display: block; /*Convierte a la imagen en un blocke, porque sino lo tomara como código.*/
+    margin-top: 18px;
+    margin-right: 0px;
+    margin-left: 6px;
+    margin-bottom: 0px;	
+	box-shadow: 8px 5px 8px 0px rgba(20, 20, 20, 0.8);
+	
+}
+#Caja2 img{
+    background-image: url(img/Caja%202.jpg);	display: block;
+	margin-top: 31px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;	
+	box-shadow: 8px 5px 8px 0px rgba(20, 20, 20, 0.8);
+	
+	}
+
+#Caja2 h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: rgba(255,253,0,1.00);
+    margin-top: 10px;
+    margin-left: 10px;
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.6);
+    font-family: "Jersey 10", sans-serif;
+    text-transform: uppercase;	
+	
+	
+	}
+#Caja2 p{
+    
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    color: rgba(255,255,255,1.00);
+    text-align: justify;
+    text-decoration: none;	
+	
+	font-family: "Open Sans", sans-serif;
+	
+}
+
+
+.cajas{
+    width: 30%;
+    margin-top: 30px;
+    margin-left: 25px;
+    float: left;	
+	}
+
+.cajas h3{
+    font-size: 37px;
+    font-weight: 400;
+    color: rgba(255,255,255,1.00);
+    line-height: 50px;
+    text-align: center;
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.6);
+    background: linear-gradient(to bottom,  rgba(255,249,150,1) 0%,rgba(247,156,113,1) 12%,rgba(255,101,50,1) 21%,rgba(232,34,0,1) 50%,rgba(255,101,50,1) 78%,rgba(247,156,113,1) 87%,rgba(255,249,150,1) 100%);
+    font-family: "Jersey 10", sans-serif;
+    text-transform: uppercase;
+}
+
+
+.cajas p{
+    font-size: 15px;
+    line-height: 19px;
+    color: rgba(0,0,0,1.00);
+    text-align: justify;
+    margin-top: 9px;
+    font-family: "Open Sans", sans-serif;	
+	
+	}
+
+.cajas img{
+    display: block;
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-bottom: 11px;	
+	box-shadow: 8px 5px 8px 0px rgba(20, 20, 20, 0.8);
+	
+	}
+	
+
+
+
+
+
+
+
+
+#accordion img{
+  margin-top: 35px;
+    margin-left: 10px;	
+}
+
+
+
+
+#accordion{
+  
+    padding-top: 15px;	
+	
+}
+
+
+
+
+#accordion h3{font-family: "Jersey 10", sans-serif;
+      font-size: 18px;
+    font-weight: 500;
+	 text-transform: uppercase;
+
+	
+}
+
+
+#nav_sociales2{
+      background: linear-gradient(45deg,  rgba(31,158,103,1) 0%,rgba(40,211,145,1) 50%,rgba(33,198,141,1) 51%,rgba(122,226,183,1) 100%);
+    width: 100%;
+    height: 39px;
+	
+}
+
+
+#nav_sociales2 ul {
+     margin: auto; 
+	width: 900px;
+}
+#nav_sociales2 ul li{
+    list-style-type: none;
+    float: left;
+    margin-right: 20px;
+    padding-right: 10px;
+    	
+	
+}
+
+
+
+.textos{
+    width: 600px;
+    /*border: 1px solid rgba(255,0,4,1.00);*/
+    float: right;
+   
+  	margin-top: 30px;
+	
+	
+}
+
+
+
+
+.textos p{
+    font-size: 18px;
+    font-weight: 360;
+    text-align: justify;
+    color: rgba(255,255,255,1.00);
+    line-height: 22px;
+    margin-left: 50px;
+    margin-top: -190px;
+	font-family: "Open Sans", sans-serif;
+	
+	
+	
+}
+
+
+.textos p a{
+    color: rgba(18,0,255,1.00);	
+	
+	}
